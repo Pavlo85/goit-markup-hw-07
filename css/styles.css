@@ -66,12 +66,12 @@ img {
 }
 
 
-.site-nav__link.current {
+.page-header__link.current {
   color: var(--accent-color);
   display: block;
   position: relative;
 }
-.site-nav__link.current::after {
+.page-header__link.current::after {
   background: var(--accent-color);
   content: '';
   display: block;
@@ -85,20 +85,60 @@ img {
   border-radius: 2px;
 }
 
-.site-nav__link:hover,
-.site-nav__link:focus {
+.page-header__link:hover,
+.page-header__link:focus {
   color: var(--accent-color);
 }
 
 
 
-.site-nav__link {
+.page-header__link {
   color: var(--primary-text-color);
   text-decoration: none;
   margin-right: 50px;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.page-header__contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+
+  text-decoration: none;
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-left: auto;
+}
+
+.page-header__contact--nolist{
+  list-style: none;
+}
+  .page-header-contactlink {
+  margin-left: 30px;
+  color:var(--secondary-text-color);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.page-header__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+.page-header__icon:hover {
+  fill: var(--accent-color);
+}
+
+.page-header-contactlink:hover,
+.page-header-contactlink:focus {
+  color: var(--accent-color);
 }
 
 
@@ -158,53 +198,7 @@ img {
   display: flex;
 }
 
-.site-contact {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
 
-  text-decoration: none;
-  display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  margin-left: auto;
-}
-
-.site-contact--nolist{
-  list-style: none;
-}
-  .site-contact__link {
-  margin-left: 30px;
-  color:var(--secondary-text-color);
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.site-contact__link:hover{
-color: var(--accent-color);}
-
-
-
-
-.site-contact__icon {
-  margin-right: 10px;
-  fill: currentColor;
-}
-.site-contact__icon:hover {
-  fill: var(--accent-color);
-}
-
-
-
-.site-contact__link:hover,
-.site-contact__link:focus {
-  color: var(--accent-color);
-}
 
 .section-hero {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
