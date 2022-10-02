@@ -110,7 +110,7 @@ img {
   list-style: none;
 
 }
-.icon-qualitys {
+.qualitys__icon {
   height: 120px;
   width: 270px;
   background-color: #f5f4fa;
@@ -198,13 +198,16 @@ color: var(--accent-color);}
 .section-hero {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/bgi-hero-opt.jpg);
-  padding-bottom: 200px;
+  padding-bottom: 294px;
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
+  
+  padding-top: 94px;
+  
 }
-.section-hero-title {
+.section-hero__title {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
@@ -353,7 +356,7 @@ color: var(--accent-color);}
 }
 
 /* якості */
-.quality {
+.qualitys__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -363,17 +366,23 @@ color: var(--accent-color);}
   margin-bottom: 10px;
 }
 
+/* 
 .qualitys .item {
   min-width: 270px;
   margin-right: 30px;
-}
+} */
 
-.qualitys {
+.qualitys__list {
   display: flex;
   gap: 30px;
 }
+.qualitys__list--nolist{
+  list-style: none;
+}
 
-.quality-discription {
+
+
+.qualitys__text {
   font-family: 'Roboto';
   font-size: 14px;
   line-height: 1.7;
