@@ -74,9 +74,7 @@ img {
   padding-top: 60px;
   margin-bottom: 20px;
 }
-.list {
-  list-style: none;
-}
+
 
 .web {
   color: var(--accent-color);
@@ -106,6 +104,11 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   margin-left: 93px;
+}
+
+.site-nav--nolist{
+  list-style: none;
+
 }
 .icon-qualitys {
   height: 120px;
@@ -142,12 +145,19 @@ img {
   padding-bottom: 32px;
   margin-left: auto;
 }
-.site-contact__link {
+
+.site-contact--nolist{
+  list-style: none;
+}
+  .site-contact__link {
   margin-left: 30px;
   color:var(--secondary-text-color);
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+
+
+
 .icon-mail {
   margin-right: 10px;
   fill: currentColor;
