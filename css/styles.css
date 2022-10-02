@@ -154,19 +154,31 @@ img {
   color:var(--secondary-text-color);
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.site-contact__link:hover{
+color: var(--accent-color);}
 
 
-.icon-mail {
+
+
+.site-contact__icon {
   margin-right: 10px;
   fill: currentColor;
 }
-.icon-mail:hover {
+.site-contact__icon:hover {
   fill: var(--accent-color);
 }
 
 .site-nav__link {
+
+
+
   margin-right: 50px;
   transition-property: color;
   transition-duration: 250ms;
@@ -182,16 +194,7 @@ img {
 .site-contact__link:focus {
   color: var(--accent-color);
 }
-.link-flex {
-  display: flex;
-  align-items: center;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.link-flex:hover {
-  color: var(--accent-color);
-}
+
 .section-hero {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/bgi-hero-opt.jpg);
