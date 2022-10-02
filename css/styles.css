@@ -32,12 +32,12 @@ img {
   min-width: 100%;
 }
 
-.site-nav .link.current {
+.site-nav__link.current {
   color: var(--accent-color);
   display: block;
   position: relative;
 }
-.site-nav .link.current::after {
+.site-nav__link.current::after {
   background: var(--accent-color);
   content: '';
   display: block;
@@ -118,7 +118,7 @@ img {
   justify-content: center;
 }
 
-.link {
+.site-nav__link {
   color: var(--primary-text-color);
   text-decoration: none;
 }
@@ -155,7 +155,7 @@ header nav {
   fill: var(--accent-color);
 }
 
-.site-nav .link {
+.site-nav__link {
   margin-right: 50px;
   transition-property: color;
   transition-duration: 250ms;
