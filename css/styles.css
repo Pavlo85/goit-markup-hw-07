@@ -505,7 +505,9 @@ img {
   line-height: 1.15;
   letter-spacing: 0.03em;
   color: #ffffff;
+  margin-bottom: 20px;
 }
+
 .social-links {
   display: flex;
   padding: 0;
@@ -674,21 +676,7 @@ img {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* БЕКДРОП */
 
 .backdrop {
   position: fixed;
@@ -705,14 +693,14 @@ img {
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
- 
-  
-}
-
+ }
 .backdrop.is-hidden .modal {
   transform: scale(0.8);
 }
-.modal {
+
+  /* МОДАЛЬНЕ ВІКНО */
+
+  .modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -752,20 +740,11 @@ fill: #2196F3;
 
 
 
-.footer-heading{
-  margin-bottom: 20px;
-}
-
-
-
-
 
 .enter-login{
   display:flex;
   flex-direction: row;
 }
-
-
 
 .enter-login input{
   margin-right: 30px;
