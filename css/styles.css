@@ -62,6 +62,9 @@ label {
   text-decoration: none;
   padding-top: 24px;
 }
+.page-header__text {
+  color: var(--accent-color);
+}
 
 .page-header__navigation {
   font-weight: 500;
@@ -157,9 +160,7 @@ label {
 .page-header__nav {
   display: flex;
 }
-.page-header__text {
-  color: var(--accent-color);
-}
+
 
 /* СЕКЦІЯ ГЕРОЙ */
 .section-hero {
@@ -254,8 +255,7 @@ label {
 .section.no-padding {
   padding-top: 0;
 }
-.work-heading,
-.team-heading {
+.clients__heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -318,8 +318,8 @@ label {
   text-align: center;
   margin-bottom: 30px;
 }
-.work-heading,
-.team-heading {
+
+.work-heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -374,7 +374,13 @@ label {
 }
 
 /* ПОСТІЙНІ КЛІЄНТИ */
-.work-heading,
+
+.clients{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+  
+.clients__heading,
 .team-heading {
   font-weight: 700;
   font-size: 36px;
@@ -384,13 +390,13 @@ label {
   text-align: center;
   margin-bottom: 50px;
 }
-.clients-list {
+.clients__list {
   display: flex;
   gap: 30px;
   list-style: none;
 }
 
-.client-rect {
+.client {
   width: 170px;
   height: 92px;
   display: flex;
@@ -404,11 +410,11 @@ label {
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-link {
+.client__link {
   fill: currentColor;
 }
-.client-rect:hover,
-.client-rect:focus {
+.client:hover,
+.client:focus {
   border-color: #2196f3;
   color: #2196f3;
 }
