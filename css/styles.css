@@ -631,21 +631,26 @@ label {
   padding: 0;
   list-style: none;
 }
-.projects .item {
+.project {
   flex-basis: calc((100% - 60px) / 3);
   padding: 0;
 }
-.portfolio-hover:hover .image-overlay,
-.image-overlay:focus {
+.project__hover:hover .project__overlay,
+.project__overlay:focus {
   opacity: 1;
   transform: translateY(0);
 }
-.portfolio-hover:hover {
+.project__hover:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+.project__image {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
 
-.image-overlay {
+.project__overlay {
   position: absolute;
   top: 0;
   width: 100%;
@@ -666,14 +671,14 @@ label {
   /* overflow: hidden; */
 }
 
-.item-description {
+.project__description {
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   padding-left: 24px;
   padding-right: 24px;
 }
-.item-name {
+.project__name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -681,7 +686,7 @@ label {
   padding-top: 20px;
   margin-bottom: 4px;
 }
-.item-typename {
+.project__typename {
   margin-bottom: 20px;
   color: var(--secondary-text-color);
   font-style: normal;
@@ -690,11 +695,7 @@ label {
   line-height: 1.9;
 }
 
-.image-port {
-  position: relative;
-  display: flex;
-  overflow: hidden;
-}
+
 
 /* БЕКДРОП */
 
