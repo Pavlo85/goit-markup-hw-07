@@ -585,20 +585,17 @@ label {
 /* ПОРТФОЛІО*/
 /* КНОПКИ */
 
-.btn-portfolio-list {
+.radiobuttons {
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
   list-style: none;
 }
 
-.btn-portfolio-list .btn-portfolio {
-  margin-right: 8px;
-  min-height: 38px;
-  padding-right: 22px;
-  padding-left: 22px;
-}
-.btn-portfolio {
+
+
+
+.radiobuttons__btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -608,14 +605,18 @@ label {
   cursor: pointer;
   border-radius: 4px;
   border: 0;
+    margin-right: 8px;
+  min-height: 38px;
+  padding-right: 22px;
+  padding-left: 22px;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-portfolio:hover,
-.btn-portfolio:focus {
+.radiobuttons__btn:hover,
+.radiobuttons__btn:focus {
   color: #ffffff;
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
