@@ -12,34 +12,25 @@
 
   text-decoration: none;
   padding-top: 24px;
-}
-.logo__text {
+
+
+     &__text {
   color: var(--accent-color);
 }
 
-.logo--header{ 
+
+    &--header{ 
   color: #000000;
   padding-top: 24px;
 }
-
-// .logo {
-//   font-family: 'Raleway';
-//   font-weight: 700;
-//   font-size: 26px;
-//   line-height: 1.2;
-//   letter-spacing: 0.03em;
-//   text-decoration: none;
-  
-  
-// }
-
-// .logo__text {
-//   color: var(--accent-color);
-// }
- .logo--footer{
+    &--footer{
   color: #ffffff;
   display: inline-block;
   padding-top: 60px;
   margin-bottom: 20px;
 
  }
+}
+
+
+

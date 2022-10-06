@@ -66,16 +66,13 @@ label {
   text-decoration: none;
   padding-top: 24px;
 }
-
 .logo__text {
   color: var(--accent-color);
 }
-
 .logo--header {
   color: #000000;
   padding-top: 24px;
 }
-
 .logo--footer {
   color: #ffffff;
   display: inline-block;
@@ -87,7 +84,6 @@ label {
 .page-header {
   border-bottom: 1px solid #f5f5f5;
 }
-
 .page-header__navigation {
   font-weight: 500;
   font-size: 14px;
@@ -100,17 +96,14 @@ label {
   padding-bottom: 32px;
   margin-left: 93px;
 }
-
 .page-header__navigation--nolist {
   list-style: none;
 }
-
 .page-header__link.current {
   color: var(--accent-color);
   display: block;
   position: relative;
 }
-
 .page-header__link.current::after {
   background: var(--accent-color);
   content: "";
@@ -123,12 +116,9 @@ label {
   background: #2196f3;
   border-radius: 2px;
 }
-
-.page-header__link:hover,
-.page-header__link:focus {
+.page-header__link:hover, .page-header__link:focus {
   color: var(--accent-color);
 }
-
 .page-header__link {
   color: var(--primary-text-color);
   text-decoration: none;
@@ -140,7 +130,6 @@ label {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .page-header__contact {
   font-weight: 500;
   font-size: 14px;
@@ -153,11 +142,9 @@ label {
   padding-bottom: 32px;
   margin-left: auto;
 }
-
 .page-header__contact--nolist {
   list-style: none;
 }
-
 .page-header-contactlink {
   margin-left: 30px;
   color: var(--secondary-text-color);
@@ -176,21 +163,16 @@ label {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .page-header__icon {
   margin-right: 10px;
   fill: currentColor;
 }
-
 .page-header__icon:hover {
   fill: var(--accent-color);
 }
-
-.page-header-contactlink:hover,
-.page-header-contactlink:focus {
+.page-header-contactlink:hover, .page-header-contactlink:focus {
   color: var(--accent-color);
 }
-
 .page-header .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -199,7 +181,6 @@ label {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .page-header__nav {
   display: -webkit-box;
   display: -ms-flexbox;
