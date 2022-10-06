@@ -3,9 +3,8 @@
 .works {
   padding-top: 0;
   padding-bottom: 94px;
-}
 
-.works__heading {
+  &__heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -14,6 +13,19 @@
   text-align: center;
   margin-bottom: 50px;
 }
+
+  &__list {
+  display: flex;
+  list-style: none;
+}
+
+
+}
+
+
+
+
+
 .clients__heading {
   font-weight: 700;
   font-size: 36px;
@@ -24,21 +36,15 @@
   margin-bottom: 50px;
 }
 
-.works__list {
-  display: flex;
-  list-style: none;
-}
+
 .worksphoto {
   margin-right: 30px;
-}
-.worksphoto:nth-child(3) {
+ position: relative;
+
+&:nth-child(3) {
   margin-right: 0;
 }
-
-.worksphoto{
-  position: relative;
-}
-.worksphoto__discr {
+ &__discr {
   position: absolute;
 
   width: 100%;
@@ -55,3 +61,7 @@
   text-transform: uppercase;
   color: #ffffff;
 }
+}
+
+
+

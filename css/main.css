@@ -198,7 +198,6 @@ label {
   margin-right: auto;
   padding-top: 94px;
 }
-
 .section-hero__title {
   font-size: 44px;
   line-height: 1.36;
@@ -290,7 +289,6 @@ label {
   padding-top: 0;
   padding-bottom: 94px;
 }
-
 .works__heading {
   font-weight: 700;
   font-size: 36px;
@@ -299,6 +297,12 @@ label {
   color: var(--primary-text-color);
   text-align: center;
   margin-bottom: 50px;
+}
+.works__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
 }
 
 .clients__heading {
@@ -311,25 +315,13 @@ label {
   margin-bottom: 50px;
 }
 
-.works__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-}
-
 .worksphoto {
   margin-right: 30px;
+  position: relative;
 }
-
 .worksphoto:nth-child(3) {
   margin-right: 0;
 }
-
-.worksphoto {
-  position: relative;
-}
-
 .worksphoto__discr {
   position: absolute;
   width: 100%;
@@ -375,7 +367,6 @@ label {
   padding-top: 30px;
   margin-bottom: 10px;
 }
-
 .face-position {
   font-size: 16px;
   line-height: 1.2;
@@ -391,7 +382,6 @@ label {
   margin: auto;
   list-style: none;
 }
-
 .team-list .item {
   margin-right: 30px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -399,7 +389,6 @@ label {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
 }
-
 .team-list .item:nth-child(4n) {
   margin-right: 0;
 }
@@ -427,9 +416,7 @@ label {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.full-icon:hover,
-.full-icon:focus {
+.full-icon:hover, .full-icon:focus {
   background-color: var(--accent-color);
   fill: #f5f4fa;
 }
@@ -439,7 +426,6 @@ label {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 .clients__heading {
   font-weight: 700;
   font-size: 36px;
@@ -449,7 +435,6 @@ label {
   text-align: center;
   margin-bottom: 50px;
 }
-
 .clients__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -476,13 +461,10 @@ label {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .client__link {
   fill: currentColor;
 }
-
-.client:hover,
-.client:focus {
+.client:hover, .client:focus {
   border-color: #2196f3;
   color: #2196f3;
 }
@@ -492,18 +474,15 @@ label {
   background-color: #2f303a;
   padding-bottom: 60px;
 }
-
 .footer-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
 .footer-list {
   padding-left: 0px;
   list-style: none;
 }
-
 .footer-contact-map {
   font-style: normal;
   font-size: 14px;
@@ -515,7 +494,6 @@ label {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .footer-contact-mailtel {
   font-style: normal;
   font-size: 14px;
@@ -527,13 +505,10 @@ label {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-join,
-.footer-subscribe {
+.footer-join, .footer-subscribe {
   padding-top: 72px;
   margin-left: 70px;
 }
-
 .footer-heading {
   font-weight: 700;
   font-size: 14px;
@@ -541,6 +516,13 @@ label {
   letter-spacing: 0.03em;
   color: #ffffff;
   margin-bottom: 20px;
+}
+.footer-icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 28px;
+  fill: var(--primari-background-color);
 }
 
 .social-links {
@@ -570,17 +552,14 @@ label {
   -webkit-transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.full-iconf:hover,
-.full-iconf:focus {
+.full-iconf:hover, .full-iconf:focus {
   background: var(--accent-color);
 }
-
 .full-iconf .icon {
   fill: #ffffff;
 }
 
-.footer-contact-mailtel.nopadding {
+.footer-contact-mailtel {
   padding-bottom: 0px;
 }
 
@@ -600,7 +579,6 @@ label {
       -ms-flex-direction: row;
           flex-direction: row;
 }
-
 .enter-login input {
   margin-right: 30px;
   width: 358px;
@@ -637,15 +615,7 @@ label {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-}
-
-.footer-icon {
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  right: 28px;
-  fill: var(--primari-background-color);
+  color: var(--primari-background-color);
 }
 
 .radiobuttons {
@@ -658,7 +628,6 @@ label {
           justify-content: center;
   list-style: none;
 }
-
 .radiobuttons__btn {
   font-weight: 500;
   font-size: 16px;
@@ -678,9 +647,7 @@ label {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.radiobuttons__btn:hover,
-.radiobuttons__btn:focus {
+.radiobuttons__btn:hover, .radiobuttons__btn:focus {
   color: #ffffff;
   background-color: var(--accent-color);
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -704,19 +671,15 @@ label {
       flex-basis: calc((100% - 60px) / 3);
   padding: 0;
 }
-
-.project__hover:hover .project__overlay,
-.project__overlay:focus {
+.project__hover:hover .project__overlay, .project__overlay:focus {
   opacity: 1;
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
-
 .project__hover:hover {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
 .project__image {
   position: relative;
   display: -webkit-box;
@@ -724,7 +687,6 @@ label {
   display: flex;
   overflow: hidden;
 }
-
 .project__overlay {
   position: absolute;
   top: 0;
@@ -746,9 +708,7 @@ label {
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* overflow: hidden; */
 }
-
 .project__description {
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
@@ -756,7 +716,6 @@ label {
   padding-left: 24px;
   padding-right: 24px;
 }
-
 .project__name {
   font-weight: 700;
   font-size: 18px;
@@ -764,7 +723,6 @@ label {
   padding-top: 20px;
   margin-bottom: 4px;
 }
-
 .project__typename {
   margin-bottom: 20px;
   color: var(--secondary-text-color);
@@ -786,12 +744,10 @@ label {
   -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
 }
-
 .backdrop.is-hidden .modal {
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
@@ -814,9 +770,6 @@ label {
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal {
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 40px;
@@ -836,6 +789,7 @@ label {
   margin-top: 8px;
   margin-right: 8px;
   border: none;
+  cursor: pointer;
   -webkit-transition-property: fill;
   transition-property: fill;
   -webkit-transition-duration: 250ms;
@@ -843,9 +797,7 @@ label {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.button-modal:hover,
-.button-modal:focus {
+.button-modal:hover, .button-modal:focus {
   fill: #2196f3;
 }
 
@@ -862,24 +814,16 @@ label {
 .form-field {
   position: relative;
 }
-
-.form-field input:hover,
-.form-field input:focus {
+.form-field input:hover, .form-field input:focus {
   -webkit-transition-property: border-color;
   transition-property: border-color;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.form-field input:hover,
-.form-field input:focus {
   border-color: hsl(207deg, 90%, 54%);
 }
-
-.form-field:hover .icon-input,
-.form-field:focus .icon-input {
+.form-field:hover .icon-input, .form-field:focus .icon-input {
   fill: var(--accent-color);
 }
 
@@ -905,9 +849,7 @@ textarea {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-textarea:hover,
-textarea:focus {
+textarea:hover, textarea:focus {
   border-color: var(--accent-color);
 }
 
@@ -921,19 +863,13 @@ textarea:focus {
   padding-left: 42px;
   outline: none;
 }
-
-.input-form:focus + .icon-input,
-.input-form:hover + .icon-input {
+.input-form:focus + .icon-input, .input-form:hover + .icon-input {
   -webkit-transition-property: fill;
   transition-property: fill;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.input-form:focus + .icon-input,
-.input-form:hover + .icon-input {
   fill: var(--accent-color);
 }
 
@@ -961,6 +897,12 @@ textarea:focus {
   margin-top: 10px;
   margin-bottom: 30px;
 }
+.box .hidden {
+  position: absolute;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
 
 .custom-input {
   display: -webkit-inline-box;
@@ -968,17 +910,9 @@ textarea:focus {
   display: inline-flex;
   width: 15px;
 }
-
 .custom-input:checked + .check-box {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
-}
-
-.box .hidden {
-  position: absolute;
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
 }
 
 .check-box {
@@ -1046,7 +980,6 @@ textarea:focus {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .form-button:hover {
   background: #188ce8;
 }
